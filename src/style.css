@@ -1,3 +1,70 @@
 body {
   font-family: 'Crimson Text', serif;
+  font-size: 15px;
+}
+
+
+/*Typography*/
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+a {
+  color: #F37307;
+}
+
+/*Nav*/
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Header*/
+
+header {
+  /*background-image: url(../assets/Justin_Cameron_Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;*/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #6f6e6d;
+  background: white;
+  padding: .5em;
+}
+
+.card ul {
+  padding-top: .5em;
+}
+
+/*Treatments*/
+.treatments {
+  background-color: #488296;
+}
+
+
+/*Footer*/
+
+footer {
+  background-color: #BAB8B7;
 }
