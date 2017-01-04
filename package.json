@@ -1,0 +1,22 @@
+{
+  "name": "justin-cameron",
+  "version": "0.0.1",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corbinjensen/justCam.git"
+  },
+  "author": "Corbin Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corbinjensen/justCam/issues"
+  },
+  "homepage": "https://github.com/corbinjensen/justCam#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
