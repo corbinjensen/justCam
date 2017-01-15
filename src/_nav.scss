@@ -1,0 +1,21 @@
+nav {
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+}
+
+nav ul li {
+  width: 100%;
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav ul li a {
+  width: 100%;
+}

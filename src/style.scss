@@ -1,0 +1,94 @@
+// Normalize
+
+@import 'normalize';
+
+/*Typography*/
+
+@import 'type';
+
+// Begin Stylesheet
+
+body {
+  font-family: 'Crimson Text', serif;
+  line-height: 1.3;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+}
+
+@media (min-width:399px) {
+  body {
+    font-size:20px;
+  }
+}
+
+@media (min-width:1000px) {
+  body {
+    font-size:22px;
+  }
+}
+
+.wrapper {
+  padding: 0 .5em;
+}
+
+
+/*Nav*/
+
+@import 'nav';
+
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+header img {
+  width: 100%;
+  max-width: 473px;
+  height: auto;
+}
+
+.card  {
+  border: 1px solid #6f6e6d;
+  background: white;
+}
+
+.card-inner {
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-inner ul {
+  padding-top: .5em;
+}
+
+
+
+
+/*Treatments*/
+.services {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.service {
+  margin: 1em;
+}
+
+.fa-heartbeat {
+  font-size: 3.17em;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #488296;
+}
